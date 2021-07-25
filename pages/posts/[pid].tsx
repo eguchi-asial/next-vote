@@ -1,3 +1,5 @@
+import { AppProps } from "next/dist/next-server/lib/router/router"
+
 export async function getServerSideProps({ query }) {
   const { pid } = query
   return {
@@ -7,10 +9,10 @@ export async function getServerSideProps({ query }) {
   }
 }
 
-const Post = (props) => {
+const Post = (props: AppProps) => {
   const { pid } = props
 
-  return <p>Post: {pid}</p>
+  return <p>Post: {pid} </p>
 }
 
 export default Post

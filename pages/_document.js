@@ -11,7 +11,7 @@ class MyDocument extends Document {
       <Html lang="ja">
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=Inter"
+            href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
             rel="stylesheet"
           />
         </Head>
